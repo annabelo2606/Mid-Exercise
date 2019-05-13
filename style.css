@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    direction:rtl;
+    text-align: right;
+}
+header{
+    background-color: #909090;
+    height: 65px;
+}
+.container{
+    width:900px;
+    margin:auto;
+}
+.img-cube{
+    width: 333px;
+    position: relative;
+}
+.img-cube > img{
+    width: 100%;
+}
+.image-text{
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+footer{
+    position: fixed;
+    background-color: #919191;
+    bottom: 0;
+}
+.footer-menu{
+}
+.footer-menu > li{
+    display: inline;
+}
