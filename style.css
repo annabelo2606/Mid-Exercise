@@ -198,25 +198,27 @@ footer {
     display: none;
     position: absolute;
     top: 100%;
-    right: 0;
+    right: 7px;
     background-color: rgb(188, 188, 188);
     z-index: 100;
     width: 100px;
 }
 
 .dropdown>a {
-    border-bottom: 0.8 px dotted white;
+    border-bottom: 0.8px dotted rgb(171, 171, 171);
     font-size: 15px;
     color: white;
     text-decoration: none;
-    padding: 2px 5px 2px 5px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-left: 20px;
 }
 
 .menu>li {
     position: relative;
 }
 
-.menu>li:hover>a+.dropdown {
+.menu>li:hover>.dropdown {
     display: block;
     background-color: rgb(171, 171, 171);
 }
@@ -247,4 +249,98 @@ footer>.container>.menu>img {
 
 .area>a {
     display: block;
+}
+
+.contact-div2 {
+    background-image: url("images/contact_form_bg.png");
+}
+
+.contact-div3-1,
+.contact-div3-2 {
+    background-image: url("images/small_cube_bg.png");
+}
+
+.contact-div1 {
+    width: 122px;
+    float: right;
+}
+
+form {
+    width: 385px;
+    float: right;
+}
+
+.contact-div3 {
+    float: right;
+    width: 292px;
+}
+
+.contact {
+    padding: 32px 0 0 0;
+    color: #6D6D6D;
+    font-size: 12px;
+}
+
+.contact-div1 {
+    padding: 0 12px 0 0;
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: #5C5C5C;
+    background-color: rgb(250, 250, 250);
+}
+
+.contact-div1:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.contact-div3-1,
+.contact-div3-2 {
+    padding: 18px 22px 75px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0 0 0 24px;
+}
+
+.form-row>label {
+    width: 30%;
+    float: right;
+}
+
+.form-row>input {
+    width: 50%;
+    float: right;
+}
+
+.form-row {
+    margin: 10px 51px 0 0;
+}
+
+.form-row>textarea {
+    width: 265px;
+}
+
+.blue {
+    color: #005CA0;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.contact-div3-1>h3,
+.contact-div3-2>h3 {
+    margin-bottom: 10px;
+}
+
+.link-blue {
+    color: blue;
+}
+
+.link-blue:hover {
+    text-decoration: underline;
+    color: #005CA0;
 }
