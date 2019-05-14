@@ -6,6 +6,9 @@ body {
     direction: rtl;
     text-align: right;
     margin: 0;
+    padding-bottom: 38px;
+    line-height: 1;
+    font-family: 'Arial (Hebrew)', Arial;
 }
 
 header {
@@ -13,11 +16,17 @@ header {
     margin: 0;
 }
 
+.paz-logo {
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+}
+
 .english {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: white;
     float: left;
+    font-weight: bold;
 }
 
 .header-input,
@@ -29,6 +38,14 @@ header {
     display: none;
 }
 
+.menu>li>a:hover>.dropdown {
+    display: block;
+}
+
+.main>.container>.clearfix {
+    margin: 0;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -37,14 +54,20 @@ header {
 
 .container {
     width: 900px;
-    margin: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+header>.container {
+    padding-top: 30px;
 }
 
 .img-cube {
-    width: 30%;
+    width: 290px;
     position: relative;
     float: right;
-    margin: 0 10px 0 0;
+    margin: 20px 0 0 10px;
+    border-bottom-right-radius: 20px;
 }
 
 h3 {
@@ -57,24 +80,58 @@ h3 {
     border-bottom-right-radius: 20px;
 }
 
-.image-text {
-    position: absolute;
-    bottom: 6px;
-    left: 38px;
-    padding: 10px;
-    background-color: rgba(123, 121, 119, 0.8);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    height: 77px;
+.img-cube>div {
+    border-bottom-right-radius: 20px;
 }
 
-.image-text>a {
+.img-cube>.image-text {
+    position: absolute;
+    bottom: 6px;
+    left: 36px;
+    padding: 10px;
+    background-color: rgba(119, 119, 117, 0.85);
     color: white;
+    font-size: 13px;
+    width: 248px;
+}
+
+.img-cube>.image-text>p {
+    margin: 4px 0 0 0;
+}
+
+.img-cube>.image-text>a {
+    color: white;
+    font-size: 13px;
 }
 
 .row-second {
-    background-image: url("/images/small_cube_bg.png");
+    background-image: url("images/small_cube_bg.png");
+    width: 285;
+    height: 216px;
+    padding: 0 20px;
+    position: relative;
+    float: right;
+    margin: 20px 0 30px 15px;
+}
+
+.row-second>h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    right: 4px;
+    color: #575757;
+}
+
+.row-second-img {
+    padding: 0 30px;
+}
+
+.row-second>.image-text>a {
+    position: absolute;
+    color: #72716D;
+    font-size: 13px;
+    padding: 0 0 12px 0;
+    margin: 0;
 }
 
 footer {
@@ -87,5 +144,47 @@ footer {
 
 .menu>li {
     display: inline;
+}
+
+.menu>li>a {
+    text-decoration: none;
     color: white;
+    font-size: 14px;
+}
+
+.menu>li>span {
+    color: white;
+    font-size: 14px;
+}
+
+.menu>li>a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 14px;
+}
+
+.dropdown>a {
+    font-size: 15px;
+}
+
+.menu-header>li>.dropdown>a {
+    font-size: 15px;
+}
+
+footer>.container>.menu {
+    margin: 0;
+    height: 38px;
+    padding: 0;
+    padding: 1px 0 3px 0;
+}
+
+footer>.container>.menu>img {
+    padding-top: 5px;
+}
+
+.menu-header {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+    margin: 0 143px 0 0;
 }
