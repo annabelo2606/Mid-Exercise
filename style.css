@@ -214,13 +214,16 @@ footer {
 }
 
 .dropdown>a {
-    border-bottom: 0.8px dotted rgb(171, 171, 171);
+    /*border-bottom: 0.8px dotted rgb(171, 171, 171);*/
     font-size: 15px;
     color: white;
+    border-bottom: 0.5px solid white;
     text-decoration: none;
     padding-top: 10px;
     padding-right: 2px;
     padding-left: 20px;
+    padding-bottom: 5px;
+    display: block;
 }
 
 .menu>li {
@@ -228,13 +231,15 @@ footer {
 }
 
 .menu>li:hover>.dropdown {
-    display: block;
+    display: inline-block;
     background-color: rgb(171, 171, 171);
 }
 
-.menu>li:hover>a+.dropdown>a:hover {
-    background-color: rgb(171, 171, 171);
-    color: blue;
+.menu>li>a+.dropdown>a:hover {
+    background-color: rgb(188, 188, 188);
+    display: block;
+    border-bottom: none;
+    color: #005CA0;
     text-decoration: underline;
 }
 
@@ -300,7 +305,7 @@ form {
 
 .contact-div1:hover {
     text-decoration: underline;
-    color: blue;
+    color: #005CA0;
 }
 
 .contact-div3-1,
@@ -325,10 +330,13 @@ form {
 }
 
 .form-row>textarea {
-    width: 220px;
+    width: 240px;
     height: 108px;
 }
 
+.form-row>textarea::placeholder{
+    font-family:  'Arial (Hebrew)', Arial;
+}
 .blue {
     color: #005CA0;
     font-size: 15px;
@@ -360,6 +368,8 @@ button{
     background-color: #005CA0;
     color: white;
     margin-right: 255px;
+    border-top-right-radius: 8px;
+    font-size: 14px;
 }
 
 button:hover{
@@ -378,5 +388,7 @@ form> h1{
 
 .facebook{
     text-decoration: none;
-
+}
+.facebook:hover{
+    text-decoration: none;
 }
