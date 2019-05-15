@@ -200,14 +200,14 @@ footer {
 
 .menu>li>a:hover {
     text-decoration: underline;
-    color: blue;
+    color: #005CA0;
     font-size: 14px;
 }
 
 .dropdown {
     display: none;
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 7px;
     background-color: rgb(188, 188, 188);
     z-index: 100;
@@ -228,6 +228,7 @@ footer {
 
 .menu>li {
     position: relative;
+    padding: 5px;
 }
 
 .menu>li:hover>.dropdown {
