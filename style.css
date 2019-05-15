@@ -256,21 +256,17 @@ footer>.container>.menu>img {
 .contact-div2 {
     background-image: url("images/contact_form_bg.png");
     padding: 12px 18px;
+    background-repeat: no-repeat;
 }
-
 .contact-div3-1,
 .contact-div3-2 {
     background-image: url("images/small_cube_bg.png");
 }
 
-.contact-div1 {
-    width: 122px;
-    float: right;
-}
-
 form {
     width: 385px;
     float: right;
+    margin: 0 24px 0 24px;
 }
 
 .contact-div3 {
@@ -285,11 +281,14 @@ form {
 }
 
 .contact-div1 {
-    padding: 5px;
-    margin-bottom: 4px;
+    padding: 12px;
+    width: 122px;
+    float: right;
+    margin-bottom: 0 0 4px 0 ;
     font-size: 13px;
     color: #5C5C5C;
-    background-color: rgb(250, 250, 250);
+    background-color:rgba(204, 204, 204, 0.5) ;
+    border-radius: 3px;
 }
 
 .contact-div1:hover {
@@ -303,9 +302,6 @@ form {
     margin-bottom: 20px;
 }
 
-form {
-    margin: 0 0 0 24px;
-}
 
 .form-row>label {
     width: 30%;
@@ -322,7 +318,7 @@ form {
 }
 
 .form-row>textarea {
-    width: 243px;
+    width: 220px;
     height: 108px;
 }
 
@@ -350,22 +346,25 @@ form {
 }
 
 .contact-div2-header{
-    margin: 0 0 20px 0;
+    margin: 0 0 30px 0;
 }
 
 button{
     background-color: #005CA0;
     color: white;
+    margin-right: 255px;
 }
 
 button:hover{
     background-color: yellow;
     color: #005CA0;
     padding: 0 4px;
-    font-size:14 px;
+    font-size: 14 px;
 }
 
 
 form> h1{
     font-size: 15px;
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom:5px;
 }
