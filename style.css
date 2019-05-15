@@ -32,6 +32,7 @@ header {
 .home{
     text-decoration: none;
 }
+
 .header-input,
 .img-header {
     float: left;
@@ -58,10 +59,10 @@ header>.container {
 }
 
 .img-cube {
-    width: 290px;
+    width: 292px;
     position: relative;
     float: right;
-    margin: 20px 0 0 10px;
+    margin: 20px 0 0 8px;
     border-bottom-right-radius: 20px;
 }
 
@@ -101,12 +102,18 @@ h3 {
 
 .row-second {
     background-image: url("images/small_cube_bg.png");
-    width: 285;
+    background-repeat: no-repeat;
     height: 216px;
-    padding: 0 20px;
+    padding: 0 22px;
     position: relative;
     float: right;
-    margin: 20px 0 30px 15px;
+    margin-top: 20px;
+    width: 292px;
+}
+
+.row-second-center{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .row-second>h3 {
@@ -120,7 +127,7 @@ h3 {
 .row-second>.area {
     margin-top: 18px;
     float: right;
-    width: 30%;
+    width: 50px;
     color: #72716D;
     font-size: 16px;
 }
@@ -367,4 +374,9 @@ form> h1{
     font-size: 15px;
     border-bottom: 1px solid #cbcbcb;
     padding-bottom:5px;
+}
+
+.facebook{
+    text-decoration: none;
+
 }
