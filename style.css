@@ -27,8 +27,11 @@ header {
     color: white;
     float: left;
     font-weight: bold;
+    margin: 7px;
 }
-
+.home{
+    text-decoration: none;
+}
 .header-input,
 .img-header {
     float: left;
@@ -197,11 +200,10 @@ footer {
 .dropdown {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 20px;
     right: 7px;
     background-color: rgb(188, 188, 188);
     z-index: 100;
-    width: 100px;
 }
 
 .dropdown>a {
@@ -253,6 +255,7 @@ footer>.container>.menu>img {
 
 .contact-div2 {
     background-image: url("images/contact_form_bg.png");
+    padding: 12px 18px;
 }
 
 .contact-div3-1,
@@ -282,7 +285,7 @@ form {
 }
 
 .contact-div1 {
-    padding: 0 12px 0 0;
+    padding: 5px;
     margin-bottom: 4px;
     font-size: 13px;
     color: #5C5C5C;
@@ -319,7 +322,8 @@ form {
 }
 
 .form-row>textarea {
-    width: 265px;
+    width: 243px;
+    height: 108px;
 }
 
 .blue {
@@ -343,4 +347,25 @@ form {
 .link-blue:hover {
     text-decoration: underline;
     color: #005CA0;
+}
+
+.contact-div2-header{
+    margin: 0 0 20px 0;
+}
+
+button{
+    background-color: #005CA0;
+    color: white;
+}
+
+button:hover{
+    background-color: yellow;
+    color: #005CA0;
+    padding: 0 4px;
+    font-size:14 px;
+}
+
+
+form> h1{
+    font-size: 15px;
 }
